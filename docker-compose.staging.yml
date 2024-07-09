@@ -1,0 +1,6 @@
+services:
+  cms-staging:
+    image: cms-staging
+    ports:
+      - "6005:80"
+    restart: unless-stopped
